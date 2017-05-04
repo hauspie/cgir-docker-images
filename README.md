@@ -5,5 +5,5 @@ You can run these images using:
 
     $ docker run -d hauspie/cgir-imagename
 
-where imagename is the name of the folder of the Dockerfile. These
+where ‘imagename‘ is the name of the folder of the Dockerfile. These
 images are automatically build on dockerhub
