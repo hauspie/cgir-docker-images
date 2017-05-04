@@ -6,10 +6,6 @@ RUN apt-get update && apt-get install -y bind9 bind9-host dnsutils
 
 EXPOSE 53/udp 53/tcp
 
-# If you want to rebuild SSH keys, uncomment this
-# RUN rm -f /etc/ssh/ssh_host_*
-# RUN dpkg-reconfigure openssh-server
-
 # Create bind startup script
 RUN mkdir -p /var/run/bind
 RUN mkdir /etc/service/bind
